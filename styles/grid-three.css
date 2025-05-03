@@ -27,28 +27,28 @@
 }
 
 /* grid-01 */
-.grid-one {
+.grid-three {
     grid-template-columns: repeat(3, 20vw);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 6vw);
+    /* grid-template-rows: 10px 20px 10px ; */
 }
 .children {
-    padding: 100px;
+    padding: 10px;
 }
 #children-1 {
     background-color: #ffa500;
+    grid-column: 1/4;
 }
 #children-2 {
-    background-color: #ffbd41;
+    background-color: #008080;
+    grid-row: 2/4;
 }
 #children-3 {
     background-color: #ffcb6c;
+    grid-column: 2/4;
+    grid-row: 2/4;
 }
 #children-4 {
-    background-color: #008080;
-}
-#children-5 {
-    background-color: #009f9f;
-}
-#children-6 {
     background-color: #00c2c2;
+    grid-column: 1/4;
 }
