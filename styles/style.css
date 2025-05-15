@@ -44,3 +44,13 @@ a {
 .paginition-item:hover:not(.active) {
     background-color: var(--secondary-hover-col);
 }
+
+.iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.container h1 {
+    text-align: center;
+    padding: 20px 0px;
+}
